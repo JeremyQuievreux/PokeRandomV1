@@ -1,0 +1,1585 @@
+[{
+ "dex_number":1,
+ "name" : "Bulbizarre",
+ "types" : ["Plante","Poison"],
+ "height" : 70,
+ "weigth" : 69,
+ "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
+ "description" : "",
+ "price" : 100
+},{
+    "dex_number" : 2,
+    "name" : "Herbizarre",
+    "types" : ["Plante","Poison"],
+    "height" : 100,
+    "weigth" : 130,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "Florizarre",
+    "types" : ["Plante", "Poison"],
+    "height" : 200,
+    "weigth" : 1000,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 4,
+    "name" : "Salamèche",
+    "types" : ["Feu"],
+    "height" : 60,
+    "weigth" : 85,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 5,
+    "name" : "Reptincel",
+    "types" : ["Feu"],
+    "height" : 110,
+    "weigth" : 190,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 6,
+    "name" : "Dracaufeu",
+    "types" : ["Feu", "Vol"],
+    "height" : 170,
+    "weigth" : 905,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 7,
+    "name" : "Carapuce",
+    "types" : ["Eau"],
+    "height" : 50,
+    "weigth" : 90,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 8,
+    "name" : "Carabaffe",
+    "types" : ["Eau"],
+    "height" : 100,
+    "weigth" : 225,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 9,
+    "name" : "Tortank",
+    "types" : ["Eau"],
+    "height" : 160,
+    "weigth" : 855,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 10,
+    "name" : "Chenipan",
+    "types" : ["Insecte"],
+    "height" : 30,
+    "weigth" : 29,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 11,
+    "name" : "Chrysacier",
+    "types" : ["Insecte"],
+    "height" : 70,
+    "weigth" : 99,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 12,
+    "name" : "Papilusion",
+    "types" : ["Insecte","Vol"],
+    "height" : 110,
+    "weigth" : 320,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 13,
+    "name" : "Aspicot",
+    "types" : ["Insecte","Poison"],
+    "height" : 30,
+    "weigth" : 32,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 14,
+    "name" : "Coconfort",
+    "types" : ["Insecte","Poison"],
+    "height" : 60,
+    "weigth" : 100,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 15,
+    "name" : "Dardargnan",
+    "types" : ["Insecte", "Poison"],
+    "height" : 100,
+    "weigth" : 295,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 16,
+    "name" : "Roucool",
+    "types" : ["Normal", "Vol"],
+    "height" : 30,
+    "weigth" : 18,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 17,
+    "name" : "Roucoups",
+    "types" : ["Normal","Vol"],
+    "height" : 110,
+    "weigth" : 300,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 18,
+    "name" : "Roucarnage",
+    "types" : ["Normal","Vol"],
+    "height" : 150,
+    "weigth" : 395,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 19,
+    "name" : "Rattata",
+    "types" : ["Normal"],
+    "height" : 30,
+    "weigth" : 35,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 20,
+    "name" : "Rattatac",
+    "types" : ["Normal"],
+    "height" : 70,
+    "weigth" : 185,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 21,
+    "name" : "Piafabec",
+    "types" : ["Normal","Vol"],
+    "height" : 30,
+    "weigth" : 20,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 22,
+    "name" : "Rapasdepic",
+    "types" : ["Normal", "Vol"],
+    "height" : 120,
+    "weigth" : 380,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 23,
+    "name" : "Abo",
+    "types" : ["Poison"],
+    "height" : 200,
+    "weigth" : 69,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 24,
+    "name" : "Arbok",
+    "types" : ["Poison"],
+    "height" : 350,
+    "weigth" : 650,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 25,
+    "name" : "Pikachu",
+    "types" : ["Electrik"],
+    "height" : 40,
+    "weigth" : 60,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 26,
+    "name" : "Raichu",
+    "types" : ["Electrik"],
+    "height" : 80,
+    "weigth" : 300,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 27,
+    "name" : "Sabelette",
+    "types" : ["Sol"],
+    "height" : 60,
+    "weigth" : 120,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 28,
+    "name" : "Sablaireau",
+    "types" : ["Sol"],
+    "height" : 100,
+    "weigth" : 295,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 29,
+    "name" : "Nidoran ♀",
+    "types" : ["Poison"],
+    "height" : 40,
+    "weigth" : 70,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 30,
+    "name" : "Nidorina",
+    "types" : ["Poison"],
+    "height" : 80,
+    "weigth" : 200,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 31,
+    "name" : "Nidoqueen",
+    "types" : ["Poison","Sol"],
+    "height" : 130,
+    "weigth" : 600,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 32,
+    "name" : "Nidoran ♂",
+    "types" : ["Poison"],
+    "height" : 50,
+    "weigth" : 90,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 33,
+    "name" : "Nidorino",
+    "types" : ["Poison"],
+    "height" : 90,
+    "weigth" : 195,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 34,
+    "name" : "Nidoking",
+    "types" : ["Poison", "Sol"],
+    "height" : 140,
+    "weigth" : 620,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 35,
+    "name" : "Mélofée",
+    "types" : ["Fée"],
+    "height" : 60,
+    "weigth" : 75,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 36,
+    "name" : "Mélodelfe",
+    "types" : ["Fée"],
+    "height" : 130,
+    "weigth" : 400,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 37,
+    "name" : "Goupix",
+    "types" : ["Feu"],
+    "height" : 60,
+    "weigth" : 99,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 38,
+    "name" : "Feunard",
+    "types" : ["Feu"],
+    "height" : 110,
+    "weigth" : 199,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 39,
+    "name" : "Rondoudou",
+    "types" : ["Normal","Fée"],
+    "height" : 50,
+    "weigth" : 55,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 40,
+    "name" : "Grodoudou",
+    "types" : ["Normal","Fée"],
+    "height" : 100,
+    "weigth" : 120,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 41,
+    "name" : "Nosferapti",
+    "types" : ["Poison","Vol"],
+    "height" : 80,
+    "weigth" : 75,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 42,
+    "name" : "Nosferalto",
+    "types" : ["Poison","Vol"],
+    "height" : 160,
+    "weigth" : 550,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 43,
+    "name" : "Mystherbe",
+    "types" : ["Plante","Poison"],
+    "height" : 50,
+    "weigth" : 54,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 44,
+    "name" : "Ortide",
+    "types" : ["Plante","Poison"],
+    "height" : 80,
+    "weigth" : 86,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 45,
+    "name" : "Rafflesia",
+    "types" : ["Plante","Poison"],
+    "height" : 120,
+    "weigth" : 186,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 46,
+    "name" : "Paras",
+    "types" : ["Insecte","Plante"],
+    "height" : 30,
+    "weigth" : 54,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 47,
+    "name" : "Parasect",
+    "types" : ["Insecte","Plante"],
+    "height" : 100,
+    "weigth" : 295,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 48,
+    "name" : "Mimitoss",
+    "types" : ["Insecte","Poison"],
+    "height" : 100,
+    "weigth" : 300,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 49,
+    "name" : "Aéromite",
+    "types" : ["Insecte","Poison"],
+    "height" : 150,
+    "weigth" : 125,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 50,
+    "name" : "Taupiqueur",
+    "types" : ["Sol"],
+    "height" : 20,
+    "weigth" : 8,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 51,
+    "name" : "Tropikeur",
+    "types" : ["Sol"],
+    "height" : 70,
+    "weigth" : 333,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 52,
+    "name" : "Miaouss",
+    "types" : ["Normal"],
+    "height" : 40,
+    "weigth" : 42,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 53,
+    "name" : "Persian",
+    "types" : ["Normal"],
+    "height" : 100,
+    "weigth" : 320,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 54,
+    "name" : "Psykokwak",
+    "types" : ["Eau"],
+    "height" : 80,
+    "weigth" : 196,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 55,
+    "name" : "Akwakwak",
+    "types" : ["Eau"],
+    "height" : 170,
+    "weigth" : 766,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 56,
+    "name" : "Férosinge",
+    "types" : ["Combat"],
+    "height" : 50,
+    "weigth" : 280,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 57,
+    "name" : "Colossinge",
+    "types" : ["Combat"],
+    "height" : 100,
+    "weigth" : 320,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 58,
+    "name" : "Caninos",
+    "types" : ["Feu"],
+    "height" : 70,
+    "weigth" : 190,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 59,
+    "name" : "Arcanin",
+    "types" : ["Feu"],
+    "height" : 190,
+    "weigth" : 1550,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 60,
+    "name" : "Ptitard",
+    "types" : ["Eau"],
+    "height" : 60,
+    "weigth" : 124,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 61,
+    "name" : "Têtarte",
+    "types" : ["Eau"],
+    "height" : 100,
+    "weigth" : 200,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 62,
+    "name" : "Tartard",
+    "types" : ["Eau","Combat"],
+    "height" : 130,
+    "weigth" : 540,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 63,
+    "name" : "Abra",
+    "types" : ["Psy"],
+    "height" : 90,
+    "weigth" : 195,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
+    "description" : "Abra",
+    "price" : 100
+},{
+    "dex_number" : 64,
+    "name" : "Kadabra",
+    "types" : ["Psy"],
+    "height" : 130,
+    "weigth" : 565,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 65,
+    "name" : "Alakazam",
+    "types" : ["Psy"],
+    "height" : 150,
+    "weigth" : 480,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 66,
+    "name" : "Machoc",
+    "types" : ["Combat"],
+    "height" : 80,
+    "weigth" : 195,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 67,
+    "name" : "Machopeur",
+    "types" : ["Combat"],
+    "height" : 150,
+    "weigth" : 705,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 68,
+    "name" : "Mackogneur",
+    "types" : ["Combat"],
+    "height" : 160,
+    "weigth" : 1300,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 69,
+    "name" : "Chétiflor",
+    "types" : ["Plante","Poison"],
+    "height" : 70,
+    "weigth" : 40,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 70,
+    "name" : "Boustiflor",
+    "types" : ["Plante","Poison"],
+    "height" : 100,
+    "weigth" : 64,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 71,
+    "name" : "Empiflor",
+    "types" : ["Plante","Poison"],
+    "height" : 170,
+    "weigth" : 155,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 72,
+    "name" : "Tentacol",
+    "types" : ["Eau", "Poison"],
+    "height" : 90,
+    "weigth" : 455,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 73,
+    "name" : "Tentacruel",
+    "types" : ["Eau","Poison"],
+    "height" : 160,
+    "weigth" : 550,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 74,
+    "name" : "Racaillou",
+    "types" : ["Roche", "Sol"],
+    "height" : 40,
+    "weigth" : 200,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 75,
+    "name" : "Gravalanch",
+    "types" : ["Roche","Sol"],
+    "height" : 100,
+    "weigth" : 1050,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 76,
+    "name" : "Grolem",
+    "types" : ["Roche","Sol"],
+    "height" : 140,
+    "weigth" : 3000,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 77,
+    "name" : "Ponyta",
+    "types" : ["Feu"],
+    "height" : 100,
+    "weigth" : 300,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 78,
+    "name" : "Galopa",
+    "types" : ["Feu"],
+    "height" : 170,
+    "weigth" : 950,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 79,
+    "name" : "Ramoloss",
+    "types" : ["Eau","Psy"],
+    "height" : 120,
+    "weigth" : 360,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 80,
+    "name" : "Flagadoss",
+    "types" : ["Eau","Psy"],
+    "height" : 160,
+    "weigth" : 785,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 81,
+    "name" : "Magnéti",
+    "types" : ["Electrik","Acier"],
+    "height" : 30,
+    "weigth" : 60,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 82,
+    "name" : "Magnéton",
+    "types" : ["Electrik","Acier"],
+    "height" : 100,
+    "weigth" : 600,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/82.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 83,
+    "name" : "Canarticho",
+    "types" : ["Normal","Vol"],
+    "height" : 80,
+    "weigth" : 150,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 84,
+    "name" : "Doduo",
+    "types" : ["Normal","Vol"],
+    "height" : 140,
+    "weigth" : 392,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 85,
+    "name" : "Dodrio",
+    "types" : ["Normal","Vol"],
+    "height" : 180,
+    "weigth" : 852,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 86,
+    "name" : "Otaria",
+    "types" : ["Eau"],
+    "height" : 110,
+    "weigth" : 900,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 87,
+    "name" : "Lamantine",
+    "types" : ["Eau","Glace"],
+    "height" : 170,
+    "weigth" : 1200,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 88,
+    "name" : "Tadmorv",
+    "types" : ["Poison"],
+    "height" : 90,
+    "weigth" : 300,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 89,
+    "name" : "Grotadmorv",
+    "types" : ["Poison"],
+    "height" : 120,
+    "weigth" : 300,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png",
+    "description" : "Grotadmorv",
+    "price" : 100
+},{
+    "dex_number" : 90,
+    "name" : "Kokiyas",
+    "types" : ["Eau"],
+    "height" : 30,
+    "weigth" : 40,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 91,
+    "name" : "Crustabri",
+    "types" : ["Eau","Glace"],
+    "height" : 150,
+    "weigth" : 1325,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 92,
+    "name" : "Fantominus",
+    "types" : ["Spectre","Poison"],
+    "height" : 130,
+    "weigth" : 1,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 93,
+    "name" : "Spectrum",
+    "types" : ["Spectre","Poison"],
+    "height" : 160,
+    "weigth" : 1,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 94,
+    "name" : "Ectoplasma",
+    "types" : ["Spectre", "Poison"],
+    "height" : 150,
+    "weigth" : 405,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 95,
+    "name" : "Onix",
+    "types" : ["Roche","Sol"],
+    "height" : 880,
+    "weigth" : 2100,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 96,
+    "name" : "Soporifik",
+    "types" : ["Psy"],
+    "height" : 100,
+    "weigth" : 324,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 97,
+    "name" : "Hypnomade",
+    "types" : ["Psy"],
+    "height" : 160,
+    "weigth" : 756,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 98,
+    "name" : "Krabby",
+    "types" : ["Eau"],
+    "height" : 40,
+    "weigth" : 65,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 99,
+    "name" : "Krabboss",
+    "types" : ["Eau"],
+    "height" : 130,
+    "weigth" : 600,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 100,
+    "name" : "Voltorbe",
+    "types" : ["Electrik"],
+    "height" : 50,
+    "weigth" : 104,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 101,
+    "name" : "Electrode",
+    "types" : ["Electrik"],
+    "height" : 120,
+    "weigth" : 666,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 102,
+    "name" : "Noeunoeuf",
+    "types" : ["Plante","Psy"],
+    "height" : 40,
+    "weigth" : 25,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/102.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 103,
+    "name" : "Noadkoko",
+    "types" : ["Plante","Psy"],
+    "height" : 200,
+    "weigth" : 1200,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 104,
+    "name" : "Osselait",
+    "types" : ["Sol"],
+    "height" : 40,
+    "weigth" : 65,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 105,
+    "name" : "Ossatueur",
+    "types" : ["Sol"],
+    "height" : 100,
+    "weigth" : 450,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 106,
+    "name" : "Kicklee",
+    "types" : ["Combat"],
+    "height" : 150,
+    "weigth" : 498,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/106.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 107,
+    "name" : "Tygnon",
+    "types" : ["Combat"],
+    "height" : 140,
+    "weigth" : 502,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/107.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 108,
+    "name" : "Excelangue",
+    "types" : ["Normal"],
+    "height" : 120,
+    "weigth" : 655,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 109,
+    "name" : "Smogo",
+    "types" : ["Poison"],
+    "height" : 60,
+    "weigth" : 10,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/109.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 110,
+    "name" : "Smogogo",
+    "types" : ["Poison"],
+    "height" : 120,
+    "weigth" : 95,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 111,
+    "name" : "Rhinocorne",
+    "types" : ["Sol","Roche"],
+    "height" : 100,
+    "weigth" : 1150,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 112,
+    "name" : "Rhinoféros",
+    "types" : ["Sol","Roche"],
+    "height" : 190,
+    "weigth" : 1200,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 113,
+    "name" : "Leveinard",
+    "types" : ["Normal"],
+    "height" : 110,
+    "weigth" : 346,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 114,
+    "name" : "Saquedeneu",
+    "types" : ["Plante"],
+    "height" : 100,
+    "weigth" : 350,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/114.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 115,
+    "name" : "Kangourex",
+    "types" : ["Normal"],
+    "height" : 220,
+    "weigth" : 800,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 116,
+    "name" : "Hypotrempe",
+    "types" : ["Eau"],
+    "height" : 40,
+    "weigth" : 80,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 117,
+    "name" : "Hypocéan",
+    "types" : ["Eau"],
+    "height" : 120,
+    "weigth" : 250,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 118,
+    "name" : "Poissirène",
+    "types" : ["Eau"],
+    "height" : 60,
+    "weigth" : 150,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/118.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 119,
+    "name" : "Poissoroy",
+    "types" : ["Eau"],
+    "height" : 130,
+    "weigth" : 390,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 120,
+    "name" : "Stari",
+    "types" : ["Eau"],
+    "height" : 80,
+    "weigth" : 345,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 121,
+    "name" : "Staross",
+    "types" : ["Eau","Psy"],
+    "height" : 110,
+    "weigth" : 800,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 122,
+    "name" : "M. Mime",
+    "types" : ["Psy","Fée"],
+    "height" : 130,
+    "weigth" : 545,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 123,
+    "name" : "Insécateur",
+    "types" : ["Insecte","Vol"],
+    "height" : 150,
+    "weigth" : 560,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 124,
+    "name" : "Lippoutou",
+    "types" : ["Glace","Psy"],
+    "height" : 140,
+    "weigth" : 406,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/124.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 125,
+    "name" : "Elektek",
+    "types" : ["Electrik"],
+    "height" : 110,
+    "weigth" : 300,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 126,
+    "name" : "Magmar",
+    "types" : ["Feu"],
+    "height" : 130,
+    "weigth" : 445,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 127,
+    "name" : "Scarabrute",
+    "types" : ["Insecte"],
+    "height" : 150,
+    "weigth" : 550,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 128,
+    "name" : "Tauros",
+    "types" : ["Normal"],
+    "height" : 140,
+    "weigth" : 884,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 129,
+    "name" : "Magicarpe",
+    "types" : ["Eau"],
+    "height" : 90,
+    "weigth" : 100,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 130,
+    "name" : "Léviator",
+    "types" : ["Eau","Vol"],
+    "height" : 650,
+    "weigth" : 2350,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
+    "description" : "Léviator",
+    "price" : 100
+},{
+    "dex_number" : 131,
+    "name" : "Lokhlass",
+    "types" : ["Eau","Glace"],
+    "height" : 250,
+    "weigth" : 2200,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 132,
+    "name" : "Métamorph",
+    "types" : ["Normal"],
+    "height" : 30,
+    "weigth" : 40,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 133,
+    "name" : "Evoli",
+    "types" : ["Normal"],
+    "height" : 30,
+    "weigth" : 65,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 134,
+    "name" : "Aquali",
+    "types" : ["Eau"],
+    "height" : 100,
+    "weigth" : 290,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 135,
+    "name" : "Voltali",
+    "types" : ["Electrik"],
+    "height" : 80,
+    "weigth" : 245,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 136,
+    "name" : "Pyroli",
+    "types" : ["Feu"],
+    "height" : 90,
+    "weigth" : 2550,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+},{
+    "dex_number" : 3,
+    "name" : "",
+    "types" : [""],
+    "height" : ,
+    "weigth" : ,
+    "picURL" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description" : "",
+    "price" : 100
+}]
