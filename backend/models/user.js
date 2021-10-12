@@ -11,7 +11,8 @@ const UserSchema = mongoose.Schema({
     mail : String,
     password : String,
     poke_coins : Number,
-    collection : [{}]
+    collection : [{}],
+    next_click : Date
  }) 
  
  const UserModel = mongoose.model("user", UserSchema)

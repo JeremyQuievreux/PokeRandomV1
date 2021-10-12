@@ -12,7 +12,6 @@ function CardsPage() {
       .get("http://localhost:5000/cards")
       .then(function (response) {
         setCardsList(response.data);
-        console.log(response.data);
       })
       .catch(function (err) {
         console.log(err);
@@ -25,7 +24,7 @@ function CardsPage() {
       <h1>Cards Page</h1>
       {cardsList.map((card) => (
         
-        <Card card={card}></Card>
+        <Card key={card.dex_number} card={card}></Card>
       )
       )}
     </div>
