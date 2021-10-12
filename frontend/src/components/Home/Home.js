@@ -6,13 +6,14 @@ import './Home.scss';
 
 function Home() {
 
-    const [randomCard, setRandomCard] = useState({});
+    const [card, setCard] = useState([]);
 
     useEffect(() => {
         axios
           .get("http://localhost:5000/cards/random")
           .then(function (response) {
-            setRandomCard(response.data[0]);
+            console.log(response.data);
+            setCard(response.data);
           })
           .catch(function (err) {
             console.log(err);
@@ -22,7 +23,9 @@ function Home() {
     return(
         <div className="home-page">
             <h1>Home Page</h1>
-            <Card card={randomCard} />
+            {card.map((card) => {
+              return <Card card={card} />
+            })}
         </div>
     )
 }

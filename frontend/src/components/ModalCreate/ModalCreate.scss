@@ -10,9 +10,16 @@
     align-items: center;
     .modal-create-interne{
         border: 5px solid darkred;
-        border-radius: 0 20px;
+        border-radius: 0 50px;
+        box-shadow: 50px 50px 50px black;
         width: 50%;
         height: 50%;
         background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        form{
+            border: 2px solid black;
+        }
     }
 }

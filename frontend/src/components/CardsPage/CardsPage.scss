@@ -1,0 +1,12 @@
+.cards-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('../../img//background_pokeball.jpg');
+}
+
+.cards-list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

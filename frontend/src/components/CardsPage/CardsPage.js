@@ -21,12 +21,15 @@ function CardsPage() {
 
   return (
     <div className="cards-page">
-      <h1>Cards Page</h1>
-      {cardsList.map((card) => (
-        
-        <Card key={card.dex_number} card={card}></Card>
-      )
-      )}
+      <h1>Boutique : </h1>
+      <div className="cards-list">
+        {cardsList.map((card) => (
+          
+          <Card key={card.dex_number} card={card}></Card>
+        )
+        )}  
+      </div>
+      
     </div>
   );
 }

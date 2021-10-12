@@ -1,0 +1,129 @@
+$grass :  #9BCC50;
+$normal : #A4ACAF;
+$fire : #FD7D24;
+$water : #4592C4;
+$elec : #EED535;
+$ice : #51C4E7;
+$fight : #D56723;
+$poison : #BA80CA;
+$ground :#E0C068;
+$psy : #F366B9;
+$fly : #3DC7EF;
+$bugs : #729F3F;
+$rock : #A38C21;
+$fairy : #FDB9E9;
+$ghost : #7B62A3;
+$dragon : #53A4CF;
+$steel : #9EB7B8;
+
+
+
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 350px;
+    margin: 20px;
+    border-radius: 0 30px;
+    box-shadow: 20px 20px 20px black;
+    .card-header{
+        border: 2px solid black;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 0 28px 0 0 ;
+        background-color: $grass;
+    }
+    .card-type{
+        border: 2px solid black;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+        .type-square{
+            height: 20px;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            border: 2px solid black;
+        }
+    }
+    .card-body{
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        img{
+            width: 100%;
+        }
+    }
+    .card-footer{
+        border: 2px solid black;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 0 0 0 28px;
+        background-color: $grass;
+
+    }
+}
+.Plante{
+    background-color: $grass !important;
+}
+
+.Feu{
+    background-color: $fire !important;
+}
+
+.Eau{
+    background-color: $water !important;
+}
+
+.Insecte {
+    background-color: $bugs !important;
+}
+
+.Normal{
+    background-color:$normal !important;
+}
+
+.Poison{
+    background-color: $poison !important;
+}
+
+.Electrik{
+    background-color: $elec !important;
+}
+.Sol{
+    background-color: $ground !important;
+}
+
+.Fée {
+    background-color: $fairy !important;
+}
+.Combat{
+    background-color: $fight !important;
+}
+.Psy{
+    background-color: $psy !important;
+}
+.Roche{
+    background-color: $rock !important;
+}
+.Spectre{
+    background-color: $ghost !important;
+}
+.Glace{
+    background-color: $ice !important;
+}
+.Dragon{
+    background-color:$dragon !important;
+}
+.Vol{
+    background-color: $fly !important;
+}
