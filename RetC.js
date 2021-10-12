@@ -4,8 +4,8 @@ routes :
     /create (input du formulaire) -> userctrl.create
     /login (input du formulaire) -> userctrl.login
     /userinfo (user id) -> userctrl.getinfo
-    /addrandomcard (id) -> cardsctrl.getrandomcard, userctrl.addcard
-    /updatemoney (id, sommes) -> userctrl.updatemoney
+    /addrandomcard (id) -> cardsctrl.getrandomcard, userctrl.addcard, userctrl.clickCooldown
+    /updatemoney (id, sommes) -> userctrl.updatemoney, userctrl.clickcooldown
     /buycard (user id, card id) -> cardsctrl.getonecard, userctrl.addcard,  userctrl.updatemoney
     /sellcard (user is, card id) -> cardsctrl.getonecard, userctrl.removecard , userctrl.updatemoney
 
@@ -52,6 +52,10 @@ controllers :
         - rechercher la carte dans la collection du user
         - la supprime
         - return success
+    .clickCooldown
+        - recupere l'id du user
+        - change la date de la prochain que le click sera dispo
+        - success true
 
 /cards
     .getAll 
@@ -65,17 +69,3 @@ controllers :
         - recupere la card par rapport a l'id de la carte
         - la passe au controller suivant 
 */
-
-
-const pokemon = {
-    id : "mongoID",
-    dex : "api.id",
-    name : "api.name",
-    type1 : "api.types[0].type.name",
-    type2 : "api.types[1].type.name",
-    taille : "api.height",
-    poids : "api.weight",
-    urlpic : "api.other.official-artwork.front-default",
-    price : "number",
-    description : "string"
-}
