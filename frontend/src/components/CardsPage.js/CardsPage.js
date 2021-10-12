@@ -10,7 +10,9 @@ function CardsPage() {
       .get("http://localhost:5000/card")
       .then(function (response) {
         setCardsList(response.data);
-        console.log(response.data);
+        response.data.map((card) => {
+          console.log(card.name);
+        })
       })
       .catch(function (err) {
         console.log(err);
