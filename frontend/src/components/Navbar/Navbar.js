@@ -19,7 +19,7 @@ function Navbar({setModalState}) {
         <div className="navbar">
             <div className="logo">
                 <img src={LogoImg} alt="" />
-                <h1>Pokémon ClickDom</h1>
+                <h1>Pokémon Random</h1>
             </div>
             <div className="menu">
                 <Link to="/"><button>Accueil</button></Link>

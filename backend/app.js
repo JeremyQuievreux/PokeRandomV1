@@ -5,7 +5,6 @@ var logger = require('morgan');
 var cors = require('cors');
 var app = express();
 
-let PORT = 5000;
 
 require ('./db')
 
@@ -21,10 +20,7 @@ let userRouter = require('./routes/user');
 let cardRouter = require('./routes/card');
 
 app.use('/user', userRouter);
-app.use('/card', cardRouter);
+app.use('/cards', cardRouter);
 
-app.listen(PORT, function () {
-    console.log('Example app listening on port ' + PORT + '!');
-});
 
 module.exports = app;
