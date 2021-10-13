@@ -9,6 +9,7 @@ function ModalCreate({setModalState}) {
     const [mail, setMail] = useState("");
     const [password, setPassword] = useState("");
     const [confirmPassword, setConfirmPassword] = useState("");
+    const [message, setMessage] = useState("");
 
     function handleInput(e, setter) {
         setter(e.target.value)
@@ -24,7 +25,9 @@ function ModalCreate({setModalState}) {
             confirmPassword : confirmPassword
           })
           .then(function (response) {
-            console.log(response);
+              if (response.status === 200) {
+                  setModalState("login")
+              }
           })
           .catch(function (error) {
             console.log(error);
@@ -60,6 +63,7 @@ function ModalCreate({setModalState}) {
                         <input type="text" name="confirm_password" id="confirm_password" onInput={(e)=>handleInput(e, setConfirmPassword)}/>
                     </div>
                     <button onClick={(e)=> handleClick(e)}>Créer Compte</button>
+                    <p>{message}</p>
                </form>
             </div>
         </div>

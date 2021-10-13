@@ -11,15 +11,13 @@ const user = {
         let {pseudo, mail, password, confirmPassword} = req.body;
         //check que les infos sont remplies
         if (!pseudo || !mail || !password || !confirmPassword) {
-            console.log("Manque d'infos");
             //si non renvoie status d'erreur
-            return res.sendStatus(400);
+            return res.status(400).send("Tous les champs ne sont pas remplis");
         }
         //check que les password sont les meme
         if (password !== confirmPassword) {
-            console.log("les 2 passwords sont pas les meme");
             //si non return status error
-            return res.status(400).send("Passwords don't match");
+            return res.status(400).send("Probleme de confirmation de mot de passe");
         }
         //Recherche dans la BDD si le mail existe deja
         UserModel.findOne({mail : mail})
@@ -37,7 +35,7 @@ const user = {
                     // alors envois status 200
                     .then((newUser) => {
                         console.log("compte crée");
-                        return res.status(200).send(newUser)
+                        return res.status(200).json({message : "Inscription Réussie"})
                     })
                     //sinon envois status 500
                     .catch((err) => {
@@ -45,11 +43,9 @@ const user = {
                         return res.status(500);
                     })
                 }
-                console.log("mail deja utilisé");
-                return res.status(400).send("Email exist already");
+                return res.status(400).send("Mail deja utilisé");
             })
             .catch((err) => {
-                console.log("erreur");
                 return res.status(500)
             })
     },

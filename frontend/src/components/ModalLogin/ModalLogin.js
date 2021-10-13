@@ -19,7 +19,10 @@ function ModalLogin({setModalState}) {
             password : password
           })
           .then(function (response) {
-            console.log(response);
+            if (response.status === 200) {
+                document.location.replace('/');
+                setModalState("");
+            }
           })
           .catch(function (error) {
             console.log(error);
