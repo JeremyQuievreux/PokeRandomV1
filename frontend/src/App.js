@@ -8,6 +8,7 @@ import UserPage from './components/UserPage/UserPage';
 import CardsPage from './components/CardsPage/CardsPage';
 import ModalCreate from './components/ModalCreate/ModalCreate';
 import ModalLogin from './components/ModalLogin/ModalLogin';
+import Footer from './components/Footer/Footer';
 import { useState } from 'react';
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
            <CardsPage/>
          </Route>
        </Switch>
+         <Footer/>
          {modalState === "create" && <ModalCreate setModalState={setModalState}/>}
          {modalState === "login" && <ModalLogin setModalState={setModalState}/>}
      </Router>
