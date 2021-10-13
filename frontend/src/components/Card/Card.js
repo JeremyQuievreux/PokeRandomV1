@@ -19,7 +19,7 @@ function Card({card}) {
                 </div>
                 <div className={"card-footer "+ card.types[0]}>
                     <p>Taille : {card.height / 100} m </p>
-                    <p><img alt="" srcset="" /> Poids : {card.weigth / 10} Kg</p>
+                    <p><img alt="" srcSet="" /> Poids : {card.weigth / 10} Kg</p>
                 </div>
             </div>
     )

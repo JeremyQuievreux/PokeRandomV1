@@ -1,6 +1,8 @@
+$redPokeBall : #ED1B24;
+
 .footer{
     background-color: black;
-    border-top: 5px solid darkred;
+    border-top: 5px solid $redPokeBall;
     color: white;
     height: 50px;
     position: fixed;

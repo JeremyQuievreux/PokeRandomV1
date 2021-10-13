@@ -1,11 +1,10 @@
 var express = require('express');
 var router = express.Router();
 
-/* const formCtrl = require('../controllers/form'); */
+const userCtrl = require('../controllers/userCtrl');
 
-router.post('/create', (req, res, next) => {
-    console.log("requete sur /user");
-    res.send("reponse du serveur sur /user/create")
-});
+router.post('/create', userCtrl.createAccount);
+
+router.post('/login', userCtrl.login);
 
 module.exports = router;

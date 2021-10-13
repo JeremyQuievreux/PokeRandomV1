@@ -12,7 +12,6 @@ function Home() {
         axios
           .get("http://localhost:5000/cards/random")
           .then(function (response) {
-            console.log(response.data);
             setCard(response.data);
           })
           .catch(function (err) {
@@ -23,8 +22,8 @@ function Home() {
     return(
         <div className="home-page">
             <h1>Home Page</h1>
-            {card.map((card) => {
-              return <Card card={card} />
+            {card.map((card, id) => {
+              return <Card key={id} card={card} />
             })}
         </div>
     )
