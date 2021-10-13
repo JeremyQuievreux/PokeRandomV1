@@ -3,7 +3,7 @@ var router = express.Router();
 
 const userCtrl = require('../controllers/userCtrl');
 
-/* function checkToken(req, res, next) {
+/* function checkToken(req, res) {
     const autHeader = req.headers['authorization'];
     const token = autHeader && autHeader.split(' ')[1];
 
@@ -14,9 +14,7 @@ const userCtrl = require('../controllers/userCtrl');
         if (err) {
         return res.sendStatus(401);
         }
-        req.user = user;
-        console.log(user);
-        next();
+    res.status(200)        ;
     })
 } */
 
