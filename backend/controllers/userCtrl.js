@@ -2,6 +2,8 @@ const UserModel = require('../models/user');
 
 const bcrypt = require("bcrypt");
 const SALTS = 10;
+const jwt = require('jsonwebtoken');
+
 
 
 
@@ -57,6 +59,7 @@ const user = {
         }
         UserModel.findOne({mail : mail})
             .then((user) => {
+                
                 if (user === null) {
                     console.log("No User");
                     return res.status(400).send("Mauvaise informations de connexion");
@@ -67,7 +70,12 @@ const user = {
                     console.log("Wrong password");
                     return res.status(404).send("Mauvaise information de connection");
                 }
-                res.status(200).send("utilisateur connecté")
+                console.log(user._id);
+                const token = jwt.sign({
+                    userId: user._id
+                    }, 'secret', { expiresIn: "24h" });
+
+                res.status(200).json({token : token, message : "Connection réussi"})
             })
             .catch((err) => {
                 console.log(err);

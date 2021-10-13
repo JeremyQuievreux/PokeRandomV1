@@ -19,6 +19,10 @@ app.use(cors());
 let userRouter = require('./routes/user');
 let cardRouter = require('./routes/card');
 
+
+
+
+
 app.use('/user', userRouter);
 app.use('/cards', cardRouter);
 

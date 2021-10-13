@@ -19,13 +19,15 @@ function ModalLogin({setModalState}) {
             password : password
           })
           .then(function (response) {
+              console.log(response);
             if (response.status === 200) {
-                document.location.replace('/');
+                localStorage.setItem("@Mern:token", response.data.token);
                 setModalState("");
+                document.location.replace('/');
             }
           })
           .catch(function (error) {
-            console.log(error);
+            console.log(error.data);
           });
         
     }
