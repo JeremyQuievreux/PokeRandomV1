@@ -2,9 +2,8 @@ const UserModel = require('../models/user');
 
 const bcrypt = require("bcrypt");
 const SALTS = 10;
+
 const jwt = require('jsonwebtoken');
-
-
 
 
 const user = {
@@ -70,12 +69,19 @@ const user = {
                     console.log("Wrong password");
                     return res.status(404).send("Mauvaise information de connection");
                 }
-                console.log(user._id);
-                const token = jwt.sign({
-                    userId: user._id
-                    }, 'secret', { expiresIn: "24h" });
 
-                res.status(200).json({token : token, message : "Connection réussi"})
+                const token = jwt.sign({
+                    userId: user._id,
+                    pseudo: user.pseudo,
+                    mail: user.mail,
+                    poke_coins: user.poke_coins,
+                    next_click: user.next_click,
+                    cardslist: user.cardslist
+                    }, 'azertyuiop', { expiresIn: "24h" });
+
+
+
+                res.status(200).json({message :"Connection réussi", token : token});
             })
             .catch((err) => {
                 console.log(err);

@@ -9,19 +9,12 @@ import CardsPage from './components/CardsPage/CardsPage';
 import ModalCreate from './components/ModalCreate/ModalCreate';
 import ModalLogin from './components/ModalLogin/ModalLogin';
 import Footer from './components/Footer/Footer';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 function App() {
 
   const [modalState, setModalState] = useState("");
   const [isLog, setIsLog] = useState(false);
-
-  useEffect(() => {
-    const localToken = localStorage.getItem("@Mern:token");
-    if (localToken) {
-      setIsLog(true)
-    }
-  },[])
 
   return (
     <div className="App">
@@ -39,7 +32,7 @@ function App() {
          </Route>
        </Switch>
          <Footer/>
-         {modalState === "create" && <ModalCreate setModalState={setModalState}/>}
+         {modalState === "create" && <ModalCreate setModalState={setModalState}  />}
          {modalState === "login" && <ModalLogin setModalState={setModalState}/>}
      </Router>
     </div>

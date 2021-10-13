@@ -3,7 +3,7 @@ import axios  from 'axios';
 
 import './ModalLogin.scss';
 
-function ModalLogin({setModalState}) {
+function ModalLogin({setModalState, setIsLog}) {
 
     const [mail, setMail] = useState('');
     const [password, setPassword] = useState('');
@@ -19,12 +19,10 @@ function ModalLogin({setModalState}) {
             password : password
           })
           .then(function (response) {
-              console.log(response);
-            if (response.status === 200) {
-                localStorage.setItem("@Mern:token", response.data.token);
-                setModalState("");
-                document.location.replace('/');
-            }
+              console.log(response.data);
+              localStorage.setItem('@tokenmern', response.data.token);
+              setModalState("");
+              document.location.replace('/');
           })
           .catch(function (error) {
             console.log(error.data);
