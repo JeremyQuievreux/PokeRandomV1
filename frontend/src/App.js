@@ -15,7 +15,6 @@ import axios from 'axios';
 function App() {
 
   const [modalState, setModalState] = useState("closed");
- /*  const [isLog, setIsLog] = useState(false); */
   const [user, setUser] = useState(null);
 
   let isLog = user !== null;
@@ -41,10 +40,6 @@ function App() {
         setUser(response.data);
       })
       .catch(err => console.log(err))
-
-
-      /* .then(user => setUser(user))
-      .catch(() => setUser(null)) */
   },[])
 
 
