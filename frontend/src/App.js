@@ -36,7 +36,6 @@ function App() {
     console.log("local token pas vide on envoie la requete au back avec un header bearer");
     axios.get("http://localhost:5000/user/info", { headers: { authorization: `Bearer ${localToken}`} })
       .then((response) => {
-        console.log(response.data);
         setUser(response.data);
       })
       .catch(err => console.log(err))
