@@ -6,6 +6,8 @@ const SALTS = 10;
 const jwt = require('jsonwebtoken');
 
 
+
+
 const user = {
     createAccount(req, res, next) {
         //Recup des infos du form
@@ -77,7 +79,7 @@ const user = {
                     poke_coins: user.poke_coins,
                     next_click: user.next_click,
                     cardslist: user.cardslist
-                    }, 'azertyuiop', { expiresIn: "24h" });
+                    }, process.env.SECRET_JWT, { expiresIn: "24h" });
 
 
 
