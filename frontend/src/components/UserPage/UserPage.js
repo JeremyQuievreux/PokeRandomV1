@@ -15,7 +15,8 @@ function UserPage({user, hardRefresh}) {
         })
           .then(function (response) {
             console.log(response.data.token);
-            localStorage.setItem("@tokenmern",response.data.token);
+            /* localStorage.removeItem('@tokenmern'); */
+            localStorage.setItem('@tokenmern', response.data.token);
             hardRefresh();
           })
           .catch(function (error) {

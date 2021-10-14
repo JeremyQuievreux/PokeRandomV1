@@ -5,6 +5,6 @@ const cardCtrl = require('../controllers/cardCtrl');
 const userCtrl = require('../controllers/userCtrl');
 
 router.get('/',cardCtrl.getAll);
-router.post('/random', cardCtrl.getOneRandom, userCtrl.refreshToken);
+router.post('/random', cardCtrl.getOneRandom, userCtrl.addPokemon, userCtrl.refreshToken);
 
 module.exports = router;

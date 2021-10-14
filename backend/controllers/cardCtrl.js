@@ -12,20 +12,16 @@ const Cards = {
     },
     getOneRandom(req, res, next) {
         let index = Math.floor(Math.random() * 151);
-        let userID = req.body.userId;
 
         PokemonModel.findOne({dex_number : index})
             .then((pokemonRandom) => {
-                UserModel.findOneAndUpdate({_id : userID}, 
-                    { $push: { cardslist: pokemonRandom } })
-                .then((qqchose) => {
-                })
+                req.pokemon = pokemonRandom
+                next();
             })
             .catch((err) => {
                 console.log(err);
+                res.status(400);
             })
-        
-        next();
     }
 }
 

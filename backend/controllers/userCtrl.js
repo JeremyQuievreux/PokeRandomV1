@@ -126,6 +126,19 @@ const user = {
                 console.log(err);
                 res.status(500).send(err)
             })
+    },
+    addPokemon(req, res, next) {
+        let userId = req.body.userId;
+        let pokemon = req.pokemon;
+        UserModel.findOneAndUpdate({_id : userId}, 
+            { $push: { cardslist: pokemon } })
+        .then(() => {
+            console.log("Pokemon ajouté a la collection");
+            next();
+        })
+        .catch((err) => {
+            res.status(400)
+        })
     }
 }
 
