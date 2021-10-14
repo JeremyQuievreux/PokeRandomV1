@@ -1,14 +1,26 @@
 import React from 'react';
 
 import './UserPage.scss';
+import axios from 'axios';
 
 import Card from '../Card/Card';
 
-function UserPage({user}) {
+function UserPage({user, hardRefresh}) {
 
+    
     function addPokemon() {
-        console.log("j'ai click");
 
+        axios.post('http://localhost:5000/cards/random',{
+            userId : user.userId
+        })
+          .then(function (response) {
+            console.log(response.data.token);
+            localStorage.setItem("@tokenmern",response.data.token);
+            hardRefresh();
+          })
+          .catch(function (error) {
+            console.log(error);
+          });
         // cards/random
     }
 
@@ -16,6 +28,7 @@ function UserPage({user}) {
     return(
         <div className="user-page">
             <h1>User Page</h1>
+            <p>Id = {user?.userId}</p>
             <p>Pseudo  = {user?.pseudo}</p>
             <p>mail = {user?.mail}</p>
             <p>PokéCoins = {user?.poke_coins}</p>
@@ -23,9 +36,9 @@ function UserPage({user}) {
 
             <button onClick={()=>addPokemon()}>Add Random Pokemon</button>
 
-        {user?.cardslist.map((card) => {
-            return (
-                <Card card={card}/>
+        {user?.cardslist.map((card, id) => {
+            return(
+                <Card key={id} card={card}/>
             )
         })}
 

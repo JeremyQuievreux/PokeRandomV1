@@ -103,6 +103,29 @@ const user = {
       
 
         
+    },
+    refreshToken(req, res, next){
+        let userID = req.body.userId;
+        UserModel.findOne({_id : userID })
+            .then((user) => {
+                
+               const token = jwt.sign({
+                    userId: user._id,
+                    pseudo: user.pseudo,
+                    mail: user.mail,
+                    poke_coins: user.poke_coins,
+                    next_click: user.next_click,
+                    cardslist: user.cardslist
+                    }, process.env.SECRET_JWT, { expiresIn: "24h" });
+
+
+
+                res.status(200).json({message :"Connection réussi", token : token});
+            })
+            .catch((err) => {
+                console.log(err);
+                res.status(500).send(err)
+            })
     }
 }
 

@@ -9,7 +9,7 @@ const UserSchema = mongoose.Schema({
     poke_coins : {type : Number, default : 1000},
     next_click : {type : Date, default : new Date()},
     cardslist : {
-        type : [Pokemon.schema],
+        type : [Pokemon.Schema],
         default : []
     }
  }) 

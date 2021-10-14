@@ -27,7 +27,7 @@ function App() {
     isLog, openLoginModal, openCreateModal, closeModal
   };
 
-   useEffect(() => {
+  function hardRefresh() {
     let localToken = localStorage.getItem("@tokenmern");
     if (localToken === null) {
       console.log("local token vide");
@@ -39,6 +39,10 @@ function App() {
         setUser(response.data);
       })
       .catch(err => console.log(err))
+  }
+
+   useEffect(() => {
+    hardRefresh();
   },[])
 
 
@@ -55,7 +59,7 @@ function App() {
             <Home/>
          </Route>
          <Route path="/userpage">
-           <UserPage user={user}/> 
+           <UserPage user={user} hardRefresh={hardRefresh}/> 
          </Route>
          <Route path="/shop">
            <CardsPage/>
