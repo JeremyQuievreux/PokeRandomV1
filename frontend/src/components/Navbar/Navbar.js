@@ -4,17 +4,10 @@ import { Link } from "react-router-dom";
 import './Navbar.scss';
 import LogoImg from '../../img/logo.png';
 
-function Navbar({setModalState, isLog}) {
+function Navbar({Login}) {
     
-    function openModalCreate(){
-        setModalState("create")
-    }
-
-    function openModalLogin(){
-        setModalState("login")
-    }
     function logOut(){
-        localStorage.removeItem("@Mern:token");
+        localStorage.removeItem("@tokenmern");
         document.location.replace('/');
     }
 
@@ -25,7 +18,7 @@ function Navbar({setModalState, isLog}) {
                 <h1>Pokémon Random</h1>
             </div>
             <div className="menu">
-                {isLog ? (
+                {Login.isLog ? (
                     <Fragment>
                         <Link to="/"><button>Accueil</button></Link>
                         <Link to="/userpage"><button>Profil</button></Link>
@@ -34,8 +27,8 @@ function Navbar({setModalState, isLog}) {
                     </Fragment>)
                     : (
                     <Fragment>
-                        <button onClick={() => openModalLogin()} >Login</button>
-                        <button onClick={() => openModalCreate()} >Sign In</button>
+                        <button onClick={() => Login.openLoginModal()} >Login</button>
+                        <button onClick={() => Login.openCreateModal()} >Sign In</button>
                     </Fragment>
                 )                                
                 }

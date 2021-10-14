@@ -89,6 +89,20 @@ const user = {
                 console.log(err);
                 res.status(500).send(err)
             })
+    },
+    getInfo(req, res, next){
+        let authToken = req.headers.authorization.split(" ")[1];
+
+        jwt.verify(authToken, process.env.SECRET_JWT, (err, decodedToken) => {
+            if (err) {
+                console.log(err)
+                return res.sendStatus(400);
+            }
+            res.send(decodedToken)
+        })
+      
+
+        
     }
 }
 

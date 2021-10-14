@@ -3,7 +3,7 @@ import axios  from 'axios';
 
 import './ModalLogin.scss';
 
-function ModalLogin({setModalState, setIsLog}) {
+function ModalLogin({Login}) {
 
     const [mail, setMail] = useState('');
     const [password, setPassword] = useState('');
@@ -21,7 +21,7 @@ function ModalLogin({setModalState, setIsLog}) {
           .then(function (response) {
               console.log(response.data);
               localStorage.setItem('@tokenmern', response.data.token);
-              setModalState("");
+              Login.closeModal();
               document.location.replace('/');
           })
           .catch(function (error) {
@@ -31,12 +31,10 @@ function ModalLogin({setModalState, setIsLog}) {
     }
     
     
-    function closeModal(){
-        setModalState("");
-    }
+    
     
     return(
-        <div className="modal-login-externe" onClick={() => closeModal()}>
+        <div className="modal-login-externe" onClick={() => Login.closeModal()}>
             <div className="modal-login-interne" onClick={(e) => {e.stopPropagation()}}>
                <h1>Se Connecter :</h1> 
                <form>
