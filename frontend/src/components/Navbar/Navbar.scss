@@ -39,3 +39,17 @@ $redPokeBall : #ED1B24;
         }
     }
 }
+@media (max-width: 1024px){
+.navbar{
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    .logo{
+        width: 100%;
+        justify-content: center;
+    }
+    .menu{
+        width: 80%;
+    }
+}
+}

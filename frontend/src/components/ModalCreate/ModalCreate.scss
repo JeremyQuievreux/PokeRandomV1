@@ -41,3 +41,13 @@ $redPokeBall : #ED1B24;
         }
     }
 }
+
+@media (max-width: 1024px){
+    .modal-create-externe{
+
+        .modal-create-interne{
+            width: 90% !important;
+        }
+    }
+    
+}
