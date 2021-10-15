@@ -2,6 +2,10 @@ import './Card.scss';
 
 function Card({card}) {
 
+
+    function handleClick() {
+        alert('Work In Progress \n TODO');
+    }
             
     return(
             <div className="card-container">
@@ -25,7 +29,7 @@ function Card({card}) {
                 </div>
                 <div className="buy-line">
                     <p>{card.price} $</p>
-                    <button>Acheter</button>
+                    <button onClick={()=>handleClick()} >Acheter</button>
                 </div>
 
             </div>
