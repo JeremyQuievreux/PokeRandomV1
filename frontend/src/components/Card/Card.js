@@ -1,10 +1,25 @@
 import './Card.scss';
+import axios from 'axios';
 
-function Card({card}) {
+function Card({card, user, hardRefresh}) {
 
 
-    function handleClick() {
-        alert('Work In Progress \n TODO');
+    
+
+    function buyCard(card, user) {
+        axios
+            .post("http://localhost:5000/cards/buy",{
+                card : card,
+                user : user
+            })
+                .then(function (response) {
+                    localStorage.setItem("@tokenmern",response.data.token)
+                    hardRefresh();
+                    alert(`Vous avec acheté ${card.name}`);
+                })
+                .catch(function (err) {
+                console.log(err);
+        })
     }
             
     return(
@@ -29,7 +44,7 @@ function Card({card}) {
                 </div>
                 <div className="buy-line">
                     <p>{card.price} $</p>
-                    <button onClick={()=>handleClick()} >Acheter</button>
+                    <button onClick={()=>buyCard(card, user)} >Acheter</button>
                 </div>
 
             </div>

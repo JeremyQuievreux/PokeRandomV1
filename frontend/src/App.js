@@ -30,10 +30,8 @@ function App() {
   function hardRefresh() {
     let localToken = localStorage.getItem("@tokenmern");
     if (localToken === null) {
-      console.log("local token vide");
       return setUser(null)
     }
-    console.log("local token pas vide on envoie la requete au back avec un header bearer");
     axios.get("http://localhost:5000/user/info", { headers: { authorization: `Bearer ${localToken}`} })
       .then((response) => {
         setUser(response.data);
@@ -62,7 +60,7 @@ function App() {
            <UserPage user={user} hardRefresh={hardRefresh}/> 
          </Route>
          <Route path="/shop">
-           <CardsPage/>
+           <CardsPage user={user} hardRefresh={hardRefresh}/>
          </Route>
        </Switch>
          <Footer/>

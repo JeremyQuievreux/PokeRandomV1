@@ -4,7 +4,7 @@ import axios  from "axios";
 
 import Card from '../Card/Card';
 
-function CardsPage() {
+function CardsPage({user, hardRefresh}) {
   const [cardsList, setCardsList] = useState([]);
 
   useEffect(() => {
@@ -26,11 +26,11 @@ function CardsPage() {
     <div className="cards-page">
       <h2>Boutique : </h2>
       <div className="cards-list">
-        {cardsList.map((card) => (
+        {cardsList ? cardsList.map((card) => (
           
-          <Card key={card.dex_number} card={card}></Card>
+          <Card key={card.dex_number} card={card} user={user} hardRefresh={hardRefresh}></Card>
         )
-        )}  
+        ) : <p>...chargement</p> }  
       </div>
       
     </div>

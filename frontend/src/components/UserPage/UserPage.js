@@ -51,11 +51,11 @@ function UserPage({user, hardRefresh}) {
             </div>
                 <h2>Votre Collection : </h2>
             <div className="card-list">
-                {user?.cardslist.map((card, id) => {
+                {user?.cardslist.sort(function (a, b){ return a.dex_number - b.dex_number}).map((card, id) => {
                     return(
                         <CardUser key={id} card={card}/>
                     )
-                })}
+                })} 
             </div>
         </div>
     )
