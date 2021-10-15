@@ -36,7 +36,7 @@ function ModalLogin({Login}) {
     return(
         <div className="modal-login-externe" onClick={() => Login.closeModal()}>
             <div className="modal-login-interne" onClick={(e) => {e.stopPropagation()}}>
-               <h1>Se Connecter :</h1> 
+               <h2>Se Connecter :</h2> 
                <form>
                     <div className="form-line">
                        <label htmlFor="mail">Votre adresse mail : </label>

@@ -4,6 +4,17 @@
     align-items: center;
     background: url('../../img//background_pokeball.jpg');
     padding-bottom: 100px;
+    h2{
+        background-color: white;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid black;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px;
+        margin: 20px;
+    } 
 }
 
 .cards-list{

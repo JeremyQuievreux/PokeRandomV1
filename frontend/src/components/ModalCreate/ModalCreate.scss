@@ -1,3 +1,6 @@
+$redPokeBall : #ED1B24;
+
+
 .modal-create-externe{
     background-color: rgba(0, 0, 0, 0.507);
     position: absolute;
@@ -9,17 +12,31 @@
     justify-content: center;
     align-items: center;
     .modal-create-interne{
-        border: 5px solid darkred;
+        border: 5px solid $redPokeBall;
         border-radius: 0 50px;
         box-shadow: 50px 50px 50px black;
         width: 50%;
-        height: 50%;
         background-color: white;
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        padding-top: 20px;
         form{
-            border: 2px solid black;
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            .form-line{
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            button{
+                margin-top: 10px;
+            }
         }
     }
 }

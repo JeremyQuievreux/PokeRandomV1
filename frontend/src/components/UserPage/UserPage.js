@@ -28,7 +28,7 @@ function UserPage({user, hardRefresh}) {
 
     return(
         <div className="user-page">
-            <h1>User Page</h1>
+            <h2>User Page</h2>
             <p>Id = {user?.userId}</p>
             <p>Pseudo  = {user?.pseudo}</p>
             <p>mail = {user?.mail}</p>

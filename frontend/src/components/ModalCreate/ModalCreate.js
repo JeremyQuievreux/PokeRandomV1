@@ -43,7 +43,7 @@ function ModalCreate({setModalState}) {
     return(
         <div className="modal-create-externe" onClick={() => closeModal()}>
             <div className="modal-create-interne" onClick={(e) => {e.stopPropagation()}}>
-               <h1>Créer compte : </h1> 
+               <h2>Créer un compte : </h2> 
                <form>
                     <div className="form-line">
                         <label htmlFor="pseudo">Pseudo : </label>

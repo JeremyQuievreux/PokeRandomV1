@@ -24,7 +24,7 @@ function CardsPage() {
 
   return (
     <div className="cards-page">
-      <h1>Boutique : </h1>
+      <h2>Boutique : </h2>
       <div className="cards-list">
         {cardsList.map((card) => (
           
