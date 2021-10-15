@@ -15,6 +15,7 @@ $fairy : #FDB9E9;
 $ghost : #7B62A3;
 $dragon : #53A4CF;
 $steel : #9EB7B8;
+$redPokeBall : #ED1B24;
 
 .card-container{
     display: flex;
@@ -29,8 +30,17 @@ $steel : #9EB7B8;
         justify-content: space-around;
         align-items: center;
         button{
-            margin: 10px;
             font-size: 20px;
+            min-width: 100px;
+            background-color: black;
+            border-radius: 10px;
+            border: 2px solid black;
+            color: white;
+            padding: 0 20px;
+            &:hover{
+                background-color: white;
+                color: $redPokeBall;
+            }
         }
     }
 }

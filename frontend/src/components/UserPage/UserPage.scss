@@ -1,3 +1,6 @@
+$redPokeBall : #ED1B24;
+
+
 .user-page{
     display: flex;
     flex-direction: column;
@@ -39,7 +42,16 @@
         }
         button{
             font-size: 20px;
-            padding: 0 10px;
+            min-width: 100px;
+            background-color: black;
+            border-radius: 10px;
+            border: 2px solid black;
+            color: white;
+            padding: 0 20px;
+            &:hover{
+                background-color: white;
+                color: $redPokeBall;
+            }
         }
     }
 }

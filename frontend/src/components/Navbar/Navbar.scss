@@ -27,6 +27,15 @@ $redPokeBall : #ED1B24;
         button{
             font-size: 20px;
             min-width: 100px;
+            background-color: $redPokeBall;
+            border-radius: 10px;
+            border: 2px solid $redPokeBall;
+            color: white;
+            &:hover{
+                border-color: white;
+                background-color: $redPokeBall;
+                color: white;
+            }
         }
     }
 }
