@@ -5,11 +5,26 @@ import axios from 'axios';
 
 import Card from '../Card/Card';
 
-function UserPage({user}) {
+function UserPage({user, hardRefresh}) {
 
-    let orderedUserCard = user?.cardslist.sort(function (a, b) {
-        return a.dex_number - b.dex_number;
-      });
+    
+    function addPokemon() {
+
+        axios.post('http://localhost:5000/cards/random',{
+            userId : user.userId
+        })
+          .then(function (response) {
+            console.log(response.data.token);
+            /* localStorage.removeItem('@tokenmern'); */
+            localStorage.setItem('@tokenmern', response.data.token);
+            hardRefresh();
+          })
+          .catch(function (error) {
+            console.log(error);
+          });
+        // cards/random
+    }
+
 
     return(
         <div className="user-page">
@@ -20,11 +35,11 @@ function UserPage({user}) {
                 <p>mail = {user?.mail}</p>
                 <p>PokéCoins = {user?.poke_coins}</p>
                 <p>Prochain click = {user?.next_click}</p>
-                
+                <button onClick={()=>addPokemon()}>Add Random Pokemon</button> 
             </div>
                 <h2>Votre Collection : </h2>
             <div className="card-list">
-                {orderedUserCard?.map((card, id) => {
+                {user?.cardslist.map((card, id) => {
                     return(
                         <Card key={id} card={card}/>
                     )
