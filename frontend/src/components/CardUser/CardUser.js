@@ -1,6 +1,6 @@
-import './Card.scss';
+import './CardUser.scss';
 
-function Card({card}) {
+function CardUser({card}) {
 
             
     return(
@@ -23,14 +23,11 @@ function Card({card}) {
                         <p><img alt="" srcSet="" /> Poids : {card.weigth / 10} Kg</p>
                     </div>
                 </div>
-                <div className="buy-line">
-                    <p>{card.price} $</p>
-                    <button>Acheter</button>
-                </div>
+                
 
             </div>
             
     )
 }
 
-export default Card;
+export default CardUser;
