@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     background: url('../../img//background_pokeball.jpg');
+    min-height: calc(100vh - 105px);
 
     h2{
         background-color: white;
