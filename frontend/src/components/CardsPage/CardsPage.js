@@ -11,7 +11,10 @@ function CardsPage() {
     axios
       .get("http://localhost:5000/cards")
       .then(function (response) {
-        setCardsList(response.data);
+        let ordered = response.data.sort(function (a, b) {
+          return a.dex_number - b.dex_number;
+        });
+        setCardsList(ordered);
       })
       .catch(function (err) {
         console.log(err);
