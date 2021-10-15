@@ -44,7 +44,7 @@ function ModalLogin({Login}) {
                     </div>
                     <div className="form-line">
                        <label htmlFor="password">Mot de passe: </label>
-                       <input type="text" name="password" id="password" onInput={(e)=>handleInput(e, setPassword)}/>
+                       <input type="password" name="password" id="password" onInput={(e)=>handleInput(e, setPassword)}/>
                     </div>
                     <button onClick={(e)=> handleClick(e)} >Connection</button>
                </form>

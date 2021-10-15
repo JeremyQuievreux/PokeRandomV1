@@ -15,7 +15,7 @@ function Navbar({Login}) {
         <div className="navbar">
             <div className="logo">
                 <img src={LogoImg} alt="" />
-                <h1>Pokémon Random</h1>
+                <h1>Poké Random</h1>
             </div>
             <div className="menu">
                 {Login.isLog ? (

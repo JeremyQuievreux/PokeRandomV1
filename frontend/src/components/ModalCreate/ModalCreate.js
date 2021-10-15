@@ -55,11 +55,11 @@ function ModalCreate({setModalState}) {
                     </div>
                     <div className="form-line">
                         <label htmlFor="password">Mot de passe : </label>
-                        <input type="text" name="password" id="password" onInput={(e)=>handleInput(e, setPassword)}/>
+                        <input type="password" name="password" id="password" onInput={(e)=>handleInput(e, setPassword)}/>
                     </div>
                     <div className="form-line">
                         <label htmlFor="confirm_password">Confirmation : </label>
-                        <input type="text" name="confirm_password" id="confirm_password" onInput={(e)=>handleInput(e, setConfirmPassword)}/>
+                        <input type="password" name="confirm_password" id="confirm_password" onInput={(e)=>handleInput(e, setConfirmPassword)}/>
                     </div>
                     <button onClick={(e)=> handleClick(e)}>Créer Compte</button>
                     <p></p>
