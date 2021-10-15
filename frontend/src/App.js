@@ -56,7 +56,7 @@ function App() {
      <Navbar Login={Login} />
        <Switch>
          <Route exact path="/">
-            <Home/>
+            <Home user={user} hardRefresh={hardRefresh}/>
          </Route>
          <Route path="/userpage">
            <UserPage user={user} hardRefresh={hardRefresh}/> 
